@@ -9,6 +9,8 @@ body {
 }
 img {
   display: block;
+  width: 500px;
+  height: 500px;
 }
 p,
 h1,
@@ -22,13 +24,15 @@ ul {
 }
 p {
   color: rgb(100, 100, 140);
-  font-size: 15px;
+  font-size: 20px;
+  margin: 0 200px;
 }
 body {
   background: black;
 }
 strong {
   font-style: bold;
+  color: gray;
 }
 h1,
 h2,
@@ -38,4 +42,14 @@ h5,
 h6 {
   font-size: 30px;
   font-family: Helvetica Neue, arial;
+}
+li {
+  text-align: left;
+  font-size: 20px;
+  color: rgb(100, 100, 140);
+}
+ul {
+  max-width: 550px;
+  margin: auto;
+  display: inline-block;
 }
