@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+img {
+  display: block;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul {
+  text-align: center;
+  color: gray;
+}
+p {
+  color: rgb(100, 100, 140);
+  font-size: 15px;
+}
+body {
+  background: black;
+}
+strong {
+  font-style: bold;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 30px;
+  font-family: Helvetica Neue, arial;
+}
